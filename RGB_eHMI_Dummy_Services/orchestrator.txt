@@ -1,0 +1,13 @@
+c DummyHW:Dummy_Serv:AlPedCr_sts -> RGB_Raspi:Front_Serv:AlPedCr_sts
+c DummyHW:Dummy_Serv:APass_sts -> RGB_Raspi:Front_Serv:APass_sts
+c DummyHW:Dummy_Serv:load_sts -> RGB_Raspi:Front_Serv:load_sts
+c DummyHW:Dummy_Serv:LPRL_sts -> RGB_Raspi:Front_Serv:LPRL_sts
+c DummyHW:Dummy_Serv:LPRR_sts -> RGB_Raspi:Front_Serv:LPRR_sts
+c DummyHW:Dummy_Serv:RPL_sts -> RGB_Raspi:Front_Serv:RPL_sts
+c DummyHW:Dummy_Serv:RPR_sts -> RGB_Raspi:Front_Serv:RPR_sts
+c DummyHW:Dummy_Serv:SafStop_sts -> RGB_Raspi:Front_Serv:SafStop_sts
+c DummyHW:Dummy_Serv:TurLeft_sts -> RGB_Raspi:Front_Serv:TurLeft_sts
+c DummyHW:Dummy_Serv:TurnRig_sts -> RGB_Raspi:Front_Serv:TurnRig_sts
+
+l RGB_Raspi:Front_Serv active
+l DummyHW:Dummy_Serv active

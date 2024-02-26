@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="905FEF8A60CB8B5B">
+  <PROJECT FORMAT="1.00" NAME="SW-Entwicklungsplan UNICARagil" AUTHOR="giaph" CREATED="2021.04.21 12:07:59" MODIFIED="2021.10.30 15:45:16">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Programmierung LED-Matrix mit Raspberry Pi" CREATED="2021.04.21 12:08:06" MODIFIED="2021.10.29 15:41:00">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="14">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Programmierung LED-Matrix mit Raspberry Pi]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[LED-Softwarebibliothek in ASOA einbinden]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Programmierung
+LED-Steuerung in C++
+(Grundlage: UML-Diagramm)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="11">
+                <TEXT><![CDATA[Erstellen eines Testkonzepts]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="42">
+                <TEXT><![CDATA[Manuelles Testen der Software]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="45">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Funktion erfüllt?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[Betrachtung der Ladezeiten der Symboliken (Laufzeit)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[Ist die Performance ausreichend?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="27">
+                <TEXT><![CDATA[Systemtest am Prototyp]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[Gewünschtes Verhalten erreicht?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="12">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="37">
+                <TEXT><![CDATA[Abnahme der Lösung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="13">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="15">
+                <TEXT><![CDATA[Optimieren des Quellcodes]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="9">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="24">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="39">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="13" FROM="10" TO="11" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="14" FROM="11" TO="42" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="43" FROM="42" TO="45" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="44" FROM="15" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="12" TO="20" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="23" FROM="20" TO="22" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="25" FROM="22" TO="24" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="26" FROM="22" TO="27" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="28" FROM="27" TO="35" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="4" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="34" FROM="24" TO="15" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="47" FROM="16" TO="45" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="36" FROM="35" TO="37" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="38" FROM="37" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="40" FROM="35" TO="39" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="41" FROM="39" TO="24" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="46" FROM="45" TO="12" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="1" NAME="bild_anzeigen(std::string s)" CREATED="2021.10.30 15:08:07" MODIFIED="2021.10.30 15:08:07">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="12">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[bild_anzeigen(std::string s)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Eingabe vom Dateipfad (.png/.gif/.stream)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[LED-Matrix Einstellungen festlegen (LED-Flags)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Bild/Animation laden und skalieren]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Ladezeit berechnen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Ausgabe von Ladezeit]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="15" ASSOCIATE="17">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="21">
+                <TEXT><![CDATA[Anzeige des Bildes bzw. der Animation]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="17" ASSOCIATE="15">
+                <TEXT><![CDATA[Solange kein Interrupt ausgelöst]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[Ausgabe einer Exit-Nachricht]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="14" FROM="10" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="15" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="18" FROM="17" TO="23" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="16" FROM="15" TO="21" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="22" FROM="21" TO="17" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="23" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="2" NAME="Dauerschleife: RGB_Thread()" CREATED="2021.10.30 15:24:52" MODIFIED="2021.10.30 15:24:52">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="8">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Dauerschleife: RGB_Thread()]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="4" ASSOCIATE="6">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Aktivitätsstatus == True?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[bild_anzeigen(this->filepath)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="6" ASSOCIATE="4">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="16" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="10" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="8" TO="12" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="12" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="18" FROM="14" TO="16" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="3" NAME="Front-Service" CREATED="2021.10.30 15:34:07" MODIFIED="2021.10.30 15:34:07">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="12">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Front-Service]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="24" ASSOCIATE="26">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Empfangen von Nutzdaten aus anderen Diensten]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Erüllen die Nutzdaten eine Transitions-Bedingung?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="29">
+                <TEXT><![CDATA[War die LED-Matrix vorher aktiv?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[Aktivitätsstatus auf "aktiv" setzen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[Dateipfad setzen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[Remote Procedure Call zum Back-Service]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="26" ASSOCIATE="24">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="15">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="31">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[LED-Matrix unterbrechen: Interrupt-Signal auslösen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="36">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="24" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="29" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="6" TO="8" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="15" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="8" TO="15" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="18" TO="20" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="20" TO="22" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="28" FROM="22" TO="26" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="25" FROM="24" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="27" FROM="26" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="30" FROM="29" TO="18" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="32" FROM="29" TO="31" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="34" FROM="31" TO="35" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="37" FROM="35" TO="36" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="38" FROM="36" TO="18" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>

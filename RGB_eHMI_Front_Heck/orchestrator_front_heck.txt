@@ -1,0 +1,11 @@
+c RGB_Raspih:Back_Serv:sCuLoad_sts -> RGB_Raspi:Front_Serv:sCuLoad_sts
+c RGB_Raspih:Back_Serv:sLPRL_sts -> RGB_Raspi:Front_Serv:sLPRL_sts
+c RGB_Raspih:Back_Serv:sLPRR_sts -> RGB_Raspi:Front_Serv:sLPRR_sts
+c RGB_Raspih:Back_Serv:sRPL_sts -> RGB_Raspi:Front_Serv:sRPL_sts
+c RGB_Raspih:Back_Serv:sRPR_sts -> RGB_Raspi:Front_Serv:sRPR_sts
+c RGB_Raspih:Back_Serv:sSafSto_sts -> RGB_Raspi:Front_Serv:sSafSto_sts
+c RGB_Raspih:Back_Serv:sTurLef_sts -> RGB_Raspi:Front_Serv:sTurLef_sts
+c RGB_Raspih:Back_Serv:sTurRig_sts -> RGB_Raspi:Front_Serv:sTurRig_sts
+
+l RGB_Raspi:Front_Serv active
+l RGB_Raspih:Back_Serv active
